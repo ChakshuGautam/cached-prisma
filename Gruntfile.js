@@ -27,6 +27,11 @@ const tasks = [
     exec: ['prismaGenerate', 'postgres', 'prismaMigrate'],
   },
   {
+    name: 'database-migrate',
+    description: 'Create and migrate a test database.',
+    exec: ['prismaMigrate'],
+  },
+  {
     name: 'caches',
     description: 'Create test caches.',
     exec: ['memcached'],

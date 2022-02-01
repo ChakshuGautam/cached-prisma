@@ -1,6 +1,9 @@
 export { Prisma } from "./prisma/prisma";
 export { LruCache } from "./caches/local";
 export { Memcached } from "./caches/memcached";
+export { LruCacheFast } from "./caches/fastLRU";
+export { NCache } from "./caches/nodeCache";
+export { TurboCache } from "./caches/turboHashMap";
 
 export type Maybe<T> = T | null;
 

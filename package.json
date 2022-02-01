@@ -13,8 +13,11 @@
   "dependencies": {
     "@prisma/client": "^2.28.0",
     "collections": "^5.1.12",
+    "lru-fast": "^0.2.2",
     "memcached": "^2.2.2",
-    "ts-node": "^10.1.0"
+    "node-cache": "^5.1.2",
+    "ts-node": "^10.1.0",
+    "turbo-hash-map": "^1.0.2"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",

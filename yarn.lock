@@ -1592,6 +1592,11 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
+clone@2.x:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
+
 clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
@@ -5298,6 +5303,11 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+lru-fast@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/lru-fast/-/lru-fast-0.2.2.tgz#30c233304cdd9b694b75141d897c52d4d413796c"
+  integrity sha1-MMIzMEzdm2lLdRQdiXxS1NQTeWw=
+
 lsmod@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lsmod/-/lsmod-1.0.0.tgz#9a00f76dca36eb23fa05350afe1b585d4299e64b"
@@ -5743,6 +5753,13 @@ no-case@^2.2.0:
   integrity sha512-rmTZ9kz+f3rCvK2TD1Ue/oZlns7OGoIWP4fc3llxxRXlOkHKoWPPWJOfFYpITabSow43QJbRIoHQXtt10VldyQ==
   dependencies:
     lower-case "^1.1.1"
+
+node-cache@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/node-cache/-/node-cache-5.1.2.tgz#f264dc2ccad0a780e76253a694e9fd0ed19c398d"
+  integrity sha512-t1QzWwnk4sjLWaQAS8CHgOJ+RAfmHpxFWmc36IWTiWHQfs0w5JDMBS1b1ZxQteo0vVVuWJvIUKHDkkeK7vIGCg==
+  dependencies:
+    clone "2.x"
 
 node-emoji@^1.4.1:
   version "1.11.0"
@@ -8144,6 +8161,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+turbo-hash-map@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/turbo-hash-map/-/turbo-hash-map-1.0.2.tgz#6ad24e69f237e38706dc1d50faaa9dab366f735b"
+  integrity sha512-gWUpQ9vxzWmE0LSadRd8D/xJvvaK60lk+IziHe2riZqjmj1kPDDa2+z+4VTBiSuKEXe7Zek4DgfQ1+nVLXXwiA==
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
